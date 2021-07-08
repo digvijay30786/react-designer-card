@@ -1,0 +1,100 @@
+.card {
+  width: 100%;
+  min-height: 700px;
+}
+.card > .fix {
+  width: 40%;
+  height: 100%;
+  margin: auto;
+  background-color: #231e39;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px black;
+  display: grid;
+  grid-template-rows: 70% 30%;
+  grid-template-columns: 100%;
+}
+
+.card > .fix > div > div > p {
+  color: white;
+}
+
+.card > .fix > div > .intro > .name {
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.card > .fix > div > .intro > .location {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.card > .fix > div > .desc {
+  width: 60%;
+  margin: auto;
+}
+
+.card > .fix > div > .btn > button {
+  height: 50px;
+  width: 150px;
+}
+
+.card > .fix > div > .btn > .msg {
+  background-color: #03bfcb;
+  color: #231e39;
+  border: 1px;
+  border-radius: 6px;
+  margin: 2px;
+}
+.card > .fix > div > .img {
+  height: 100%;
+  width: 20%;
+  margin: auto;
+}
+
+.card > .fix > div > .img > img {
+  border-radius: 50%;
+  padding: 5px;
+  border: 1px solid #03bfcb;
+  box-sizing: border-box;
+}
+
+.card > .fix > div > .btn > .follow {
+  color: #03bfcb;
+  background-color: transparent;
+  border: 1px solid #03bfcb;
+  border-radius: 6px;
+  margin: 2px;
+}
+
+.card > .fix > div:nth-child(1) {
+  display: grid;
+  grid-template-rows: repeat(4, 100px);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  grid-template-columns: 400px;
+}
+
+.card > .fix > div:nth-child(2) {
+  background-color: #231e45;
+  padding: 5px;
+  box-sizing: border-box;
+  color: white;
+}
+.card > .fix > div:nth-child(2) > p {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.card > .fix > div:nth-child(2) > div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  grid-gap: 10px;
+}
+
+.card > .fix > div:nth-child(2) > div > span {
+  border: 1px solid white;
+  padding: 5px;
+  margin: 5%;
+}
